@@ -1,0 +1,27 @@
+{
+  "name": "challenge-02-2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --loader tsx ./node_modules/knex/bin/cli.js --knexfile ./knexfile.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.15.0",
+    "fastify-autoload": "^3.13.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-plugin": "^4.5.0",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "tsc": "^2.0.4",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
